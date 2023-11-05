@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "name": "Funtastic Kpop",
+        "type": "Mythic",
+        "songs": [
+            {
+                "name": "Mr Chu",
+                "group": "Apink",
+                "duration": 180
+            },
+            {
+                "name": "No No NO",
+                "group": "Apink",
+                "duration": 200
+            },
+            {
+                "name": "Wishlist",
+                "group": "Apink",
+                "duration": 180
+            },
+            {
+                "name": "Mr Chu",
+                "group": "Apink",
+                "duration": 320
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Waktunya Hacktivtunes",
+        "type": "Legend",
+        "songs": [
+            {
+                "name": "Waktunya BUlan",
+                "group": "Hivi",
+                "duration": 145
+            },
+            {
+                "name": "Saling Merindu",
+                "group": "RAN",
+                "duration": 180
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "HipHop",
+        "type": "Epic",
+        "songs": [
+            {
+                "name": "Monkey Dance",
+                "group": "RnBGang",
+                "duration": 300
+            },
+            {
+                "name": "Alone in The Dark",
+                "group": "Reggae",
+                "duration": 90
+            }
+        ]
+    }
+]

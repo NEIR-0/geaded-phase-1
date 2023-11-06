@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "name": "Christy",
+        "gender": "Female",
+        "ticket": {
+            "theaterName": "Cinema 12",
+            "type": "Regular",
+            "movie": "Codezilla",
+            "seatNumber": "A-5"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Patra",
+        "gender": "Male",
+        "ticket": {
+            "theaterName": "Moviemaxx",
+            "type": "Premiere",
+            "movie": "Avatar The Legend of Callback",
+            "seatNumber": "A-4"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Rena",
+        "gender": "Female",
+        "ticket": {
+            "theaterName": "Cinema 12",
+            "type": "Premiere",
+            "movie": "Codezilla",
+            "seatNumber": "D-8"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Ardi",
+        "gender": "Male",
+        "ticket": {
+            "theaterName": "Cinema 12",
+            "type": "IMAX",
+            "movie": "Codezilla",
+            "seatNumber": "A-2"
+        }
+    },
+    {
+        "id": 5,
+        "name": "budi",
+        "gender": "Mele",
+        "ticket": {
+            "theaterName": "Cinema 12",
+            "type": "Regular",
+            "movie": "Cinema 12",
+            "seatNumber": "A-1"
+        }
+    },
+    {
+        "id": 6,
+        "name": "sukimin",
+        "gender": "Female",
+        "ticket": {
+            "theaterName": "Bioskop IXX",
+            "type": "Regular",
+            "movie": "Bioskop IXX",
+            "seatNumber": "C-7"
+        }
+    }
+]

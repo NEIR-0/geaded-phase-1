@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+
+    <style>
+        table, th, td {
+            border:1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+    <%- include('navbar') %>
+
+    <h2><%= title %></h2>
+    <a href="/posts/add">
+        <button>add</button>
+    </a>
+
+    <!-- SEARCH -->
+    <form action="/posts" method="get">
+        <input type="text" name="search">
+        <button type="submit">submit</button>
+    </form>
+    
+    <table style="width:100%">
+        <tr>
+            <!-- --id, title, difficulty, totalVote -->
+            <th>title</th>
+            <th>difficulty</th>
+            <th>totalVote</th>
+            <th>Actions</th>
+        </tr>
+        <% data.forEach(el => { %>
+            <tr>
+                <td><%= el.title %></td>
+                <td><%= el.difficulty %></td>
+                <td><%= el.totalVote %></td>
+                <td>
+                    <!-- read more -->  
+                    <a href="/posts/<%=el.id%>">
+                        <button value="<%= el.id%>">Read More</button>
+                    </a>
+                    <!-- edit -->  
+                    <a href="/posts/<%=el.id%>/edit">
+                        <button value="<%= el.id%>">edit</button>
+                    </a>
+                    <!-- delete -->  
+                    <a href="/posts/<%=el.id%>/delete">
+                        <button value="<%= el.id%>">delete</button>
+                    </a>
+                </td>
+            </tr>
+        <% }) %>
+    </table> 
+    <a href="/">
+        <button>Back</button>
+    </a>
+</body>
+</html>

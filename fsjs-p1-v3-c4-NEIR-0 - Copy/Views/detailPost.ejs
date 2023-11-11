@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Post</title>
+
+    <style></style>
+</head>
+<body>
+    <!-- navbar -->
+    <%- include('navbar') %>
+    
+    <h1><%= title %></h1>
+    <div class="">
+        <!-- el.postsid, el.title, el.difficulty, el.totalVote, el.estimatedTime, el.description, el.imageUrl, el.createdDate, el.authorid, el.fullName -->
+        <h1><%= data.title %></h1>
+        <div class="">
+            <div class="">
+                <img src="<%=data.imageUrl%>" alt="">
+            </div>
+            <div class="">
+                <h1>Estimed Time: <%=data.estimatedTime%> minute</h1>
+                <h1>Difficulty: <%=data.difficulty%></h1>
+                <h1>Author: <%=data.authorName%></h1>
+                <h1>Created Date: <%=data.formatCreatedDate%></h1>
+                <h1>Total Vote: <%=data.totalVote%></h1>
+                <a href="/posts/<%=data.id%>/vote">
+                    <button>Vote</button>
+                </a>
+            </div>
+
+            <h1>bahan - bahan</h1>
+            <p  style="white-space: pre-line;"><%= data.description %></p>
+        </div>
+    </div>
+
+    <a href="/posts">
+        <button>back</button>
+    </a>
+</body>
+</html>

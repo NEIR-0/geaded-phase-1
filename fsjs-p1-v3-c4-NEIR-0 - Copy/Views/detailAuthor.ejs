@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Author</title>
+
+    <style>
+        table, th, td {
+            border:1px solid black;
+        }
+
+        .red{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+    <%- include('navbar') %>
+
+    <h2><%= title %></h2>
+    <table style="width:100%">
+        <tr>
+            <th>id</th>
+            <th>Authors</th>
+            <th>Total Post</th>
+            <th>Total Vote</th>
+            <th>Average Estimated Time</th>
+        </tr>
+        <% data.forEach(el => { %>
+            <tr>
+                <td><%= el.id %></td>
+                <td><%= el.fullName %></td>
+                <td class="<%= Number(el.totalPost) === 0 ? "red" : "" %>"><%= el.totalPost %></td>
+                <td class="<%= Number(el.totalVote) === 0 ? "red" : "" %>"><%= el.totalVote %></td>
+                <td class="<%= Number(el.averageTime) === 0 ? "red" : "" %>"><%= el.averageTime %></td>
+            </tr>
+        <% }) %>
+    </table> 
+
+    <a href="/">
+        <button>back</button>
+    </a>
+</body>
+</html>

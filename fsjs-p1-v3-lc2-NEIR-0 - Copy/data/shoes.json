@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Vans Old Skool",
+    "categoryId": 1,
+    "minSize": 36,
+    "maxSize": 46,
+    "status": "Available"
+  },
+  {
+    "id": 2,
+    "name": "Andrew Cullen",
+    "categoryId": 2,
+    "minSize": 39,
+    "maxSize": 44,
+    "status": "Discontinued"
+  },
+  {
+    "id": 3,
+    "name": "Timberland Brooklyn",
+    "categoryId": 3,
+    "minSize": 39,
+    "maxSize": 51,
+    "status": "Available"
+  }
+]

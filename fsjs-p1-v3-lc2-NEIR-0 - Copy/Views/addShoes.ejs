@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/shoes/add" method="post">
+        <ul>
+            <!-- name -->
+            <li>
+                <label for="name">Name</label>
+                <input type="text" name="name" required>
+            </li>
+            <!-- category -->
+            <li>
+                <label for="name">category</label>
+                <select name="category" id="" required>
+                    <option value="">-- Select --</option>
+                    <% category.forEach(el => { %>
+                        <option value="<%= el.id %>"><%= el.name %></option>
+                    <% }) %>
+                </select>
+            </li>
+            <!-- minSize -->
+            <li>
+                <label for="name">minSize</label>
+                <input type="text" name="minSize" required>
+            </li>
+            <!-- maxSize -->
+            <li>
+                <label for="name">maxSize</label>
+                <input type="text" name="maxSize" required>
+            </li>
+            <!-- status -->
+            <li>
+                <label for="name">status</label>
+                <select name="status" id="">
+                    <option value="Available">Available</option>
+                    <option value="Discontinued">Discontinued</option>
+                <select>
+            </li>
+        </ul>
+
+        <!-- submit -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

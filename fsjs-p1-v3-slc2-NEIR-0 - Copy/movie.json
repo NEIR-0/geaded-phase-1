@@ -1,0 +1,32 @@
+[
+    {
+        "name": "udin petod",
+        "released_year": 2017,
+        "genre": "drama",
+        "ProductionHouseId": 1
+    },
+    {
+        "name": "malam jumat",
+        "released_year": 2018,
+        "genre": "horor",
+        "ProductionHouseId": 2
+    },
+    {
+        "name": "bangun tidur",
+        "released_year": 2019,
+        "genre": "comedy",
+        "ProductionHouseId": 3
+    },
+    {
+        "name": "cilup baa",
+        "released_year": 2014,
+        "genre": "horor",
+        "ProductionHouseId": 4
+    },
+    {
+        "name": "pacaran kok gitu",
+        "released_year": 2021,
+        "genre": "romance",
+        "ProductionHouseId": 5
+    }
+]

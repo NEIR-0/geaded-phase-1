@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <ul>
+    <% dataEror.forEach(el => { %>
+     <li style="color: red;"><%= el %></li>
+    <% }) %>
+  </ul>
+    <form action="/movies/edit/<%=data.id%>" method="post">
+        <ul>
+            <!-- Name -->
+            <li>
+                <label for="name">Name</label>
+                <input type="text" name="name" value="<%= data.nameMovies %>">
+            </li>
+            <!-- relesedYear -->
+            <li>
+                <label for="">Relesed Year</label>
+                <input type="number" name="relesedYear" value="<%= data.released_year %>">
+            </li>
+            <!-- genre -->
+            <li>
+                <label for="name">Name</label>
+                <select name="genre">
+                    <option value="animation" <%= data.genre === "animation" ? "selected" : ""%>>animation</option>
+                    <option value="comedy" <%= data.genre === "comedy" ? "selected" : ""%>>comedy</option>
+                    <option value="drama" <%= data.genre === "drama" ? "selected" : ""%>>drama</option>
+                    <option value="horor" <%= data.genre === "horor" ? "selected" : ""%>>horor</option>
+                    <option value="religious" <%= data.genre === "religious" ? "selected" : ""%>>religious</option>
+                    <option value="thriller" <%= data.genre === "thriller" ? "selected" : ""%>>thriller</option>
+                </select>
+            </li>
+
+            <!-- production house -->
+            <li>
+                <label for="productionHouse">Production House</label>
+                <select name="productionHouse">
+                    <% productionHouse.forEach(el => { %>
+                        <option value="<%= el.id %>"  <%= data.name === el.name ? "selected" : ""%>><%= el.name %></option>
+                    <% }) %>         
+                </select>
+            </li>
+        </ul>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

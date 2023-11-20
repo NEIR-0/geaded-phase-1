@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
+</head>
+<body>
+    <h1>Start Up</h1>
+    <% if (name || founder) { %>
+        <h1 style="color: red;">Start-Up <%= name %> with <%= founder %> as founder has been removed</h1>
+      <% } %>
+    <a href="/startUp?role=all">
+        <button>All</button>
+    </a>
+    <a href="/startUp?role=Hustler">
+        <button>Hustler</button>
+    </a>
+    <a href="/startUp?role=Hipster">
+        <button>Hipster</button>
+    </a>
+    <a href="/startUp?role=Hacker">
+        <button>Hacker</button>
+    </a>
+    <table>
+        <tr>
+          <th>startUpName - founderName</th>
+          <th>roleOfFounder</th>
+          <th>valuation</th>
+          <th>incubator code</th>
+          <th>action</th>
+        </tr>
+        <% data.forEach(el => { %>
+            <tr>
+                <td><%= el.startUpName %> - <%= el.founderName %></td>
+                <td><%= el.roleOfFounder %></td>
+                <td><%= el.formatValuation %></td>
+                <td><%= el.Incubator.code %></td>
+                <td>
+                    <a href="/startup/<%= el.id %>/delete">
+                        <button>delete</button>
+                    </a>
+                </td>
+            </tr>
+        <% }) %>
+    </table>
+
+    <a href="/">
+        <button>back</button>
+    </a>
+</body>
+</html>

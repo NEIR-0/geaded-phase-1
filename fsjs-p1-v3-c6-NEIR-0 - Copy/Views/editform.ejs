@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><%= data.name %></h1>
+    <!-- validate -->
+    <ul>
+        <% if (error !== "") { %>
+            <% error.forEach(el => { %>
+                <li style="color: red;"><%= el %></li>
+            <% }) %>
+        <% } %>
+    </ul>
+    <form action="/incubator/<%= incubatorId %>/startup/<%= data.id %>/edit" method="post">
+        <ul>
+            <li>
+                <label for="name">Name Start up</label>
+                <input type="text" name="name" value="<%= data.startUpName %>">
+            </li>
+            <li>
+                <label for="founder">Name Founder</label>
+                <input type="text" name="founder" value="<%= data.founderName %>">
+            </li>
+            <li>
+                <label for="date">Date Found</label>
+                <!-- formatnya harus sama -->
+                <input type="date" name="date" value="<%= formating %>">
+            </li>
+            <li>
+                <label for="education">education Founder</label>
+                <select name="education">
+                    <!--  [SMA, S1, S2. S3]. -->
+                    <option value="SMA" <%= data.educationOfFounder === "SMA" ? "selected" : "" %>>SMA</option>
+                    <option value="S1" <%= data.educationOfFounder === "S1" ? "selected" : "" %>>S1</option>
+                    <option value="S2" <%= data.educationOfFounder === "S2" ? "selected" : "" %>>S2</option>
+                    <option value="S3" <%= data.educationOfFounder === "S3" ? "selected" : "" %>>S3</option>
+                </select>
+            </li>
+            <li>
+                <!-- [Hacker, Hipster, Hustler]. -->
+                <input type="radio" id="Hacker" name="role" value="Hacker" <%= data.roleOfFounder === "Hacker" ? "checked" : "" %>>
+                <label for="Hacker">Hacker</label>
+
+                <input type="radio" id="Hipster" name="role" value="Hipster" <%= data.roleOfFounder === "Hipster" ? "checked" : "" %>>
+                <label for="Hipster">Hipster</label>
+
+                <input type="radio" id="Hustler" name="role" value="Hustler" <%= data.roleOfFounder === "Hustler" ? "checked" : "" %>>
+                <label for="Hustler">Hustler</label>
+            </li>
+            <li>
+                <label for="valuation">valuation</label>
+                <input type="number" name="valuation" value="<%= data.valuation %>">
+            </li>
+        </ul>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><%= data.name %></h1>
+    <!-- validate -->
+    <ul>
+        <% if (error !== "") { %>
+            <% error.forEach(el => { %>
+                <li style="color: red;"><%= el %></li>
+            <% }) %>
+        <% } %>
+    </ul>
+    <form action="/incubators/<%= data.id %>/startUp/add" method="post">
+        <ul>
+            <li>
+                <label for="name">Name Start up</label>
+                <input type="text" name="name">
+            </li>
+            <li>
+                <label for="founder">Name Founder</label>
+                <input type="text" name="founder">
+            </li>
+            <li>
+                <label for="date">Date Found</label>
+                <input type="date" name="date">
+            </li>
+            <li>
+                <label for="education">education Founder</label>
+                <select name="education">
+                    <option value="" selected>Select</option>
+                    <!--  [SMA, S1, S2. S3]. -->
+                    <option value="SMA">SMA</option>
+                    <option value="S1">S1</option>
+                    <option value="S2">S2</option>
+                    <option value="S3">S3</option>
+                </select>
+            </li>
+            <li>
+                <!-- [Hacker, Hipster, Hustler]. -->
+                <input type="radio" id="Hacker" name="role" value="Hacker">
+                <label for="Hacker">Hacker</label>
+                <input type="radio" id="Hipster" name="role" value="Hipster">
+                <label for="Hipster">Hipster</label>
+                <input type="radio" id="Hustler" name="role" value="Hustler">
+                <label for="Hustler">Hustler</label>
+            </li>
+            <li>
+                <label for="valuation">valuation</label>
+                <input type="number" name="valuation">
+            </li>
+        </ul>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

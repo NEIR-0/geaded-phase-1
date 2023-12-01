@@ -1,0 +1,182 @@
+[
+  {
+    "title": "banteng masuk partai",
+    "content": "pada tanggal 21 okteber banteng telah masuk partai merah hitam",
+    "imgUrl": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRZfrRSy2lXHInGUMwCyUiRNs493rtkXbonj0PFL8DECzPYS_VhzqN1Qt5aq9nqXnjBys9Y__hGI9yY_uM",
+    "createdAt": "2023-10-30T09:03:17.903Z",
+    "updatedAt": "2023-10-30T09:03:17.903Z",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "title": "Exciting News!",
+    "content": "Something amazing happened today. Stay tuned for more details!",
+    "imgUrl": "https://images.pexels.com/photos/5384621/pexels-photo-5384621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "createdAt": "2023-11-02T10:00:00.000Z",
+    "updatedAt": "2023-11-02T10:00:00.000Z",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "title": "Breaking News",
+    "content": "Incredible developments are underway. Keep an eye on this space for updates!",
+    "imgUrl": "https://images.pexels.com/photos/1369476/pexels-photo-1369476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "createdAt": "2023-11-02T11:00:00.000Z",
+    "updatedAt": "2023-11-02T11:00:00.000Z",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "title": "A Day to Remember",
+    "content": "Memories were made today that will last a lifetime. More on this soon.",
+    "imgUrl": "https://images.pexels.com/photos/8865073/pexels-photo-8865073.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "createdAt": "2023-11-02T12:00:00.000Z",
+    "updatedAt": "2023-11-02T12:00:00.000Z",
+    "categoryId": 4,
+    "authorId": 1
+  },
+  {
+    "title": "Latest Updates",
+    "content": "Find out what's new in the world. Stay with us for the latest information.",
+    "imgUrl": "https://images.pexels.com/photos/4057656/pexels-photo-4057656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "createdAt": "2023-11-02T13:00:00.000Z",
+    "updatedAt": "2023-11-02T13:00:00.000Z",
+    "categoryId": 5,
+    "authorId": 1
+  },
+  {
+    "title": "Unbelievable Stories",
+    "content": "Stories that will leave you amazed. Read more to be astonished!",
+    "imgUrl": "https://images.pexels.com/photos/951076/pexels-photo-951076.jpeg",
+    "createdAt": "2023-11-02T14:00:00.000Z",
+    "updatedAt": "2023-11-02T14:00:00.000Z",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "title": "Exclusive Announcement",
+    "content": "An exclusive announcement is coming your way. Stay tuned!",
+    "imgUrl": "https://images.pexels.com/photos/3764551/pexels-photo-3764551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1g",
+    "createdAt": "2023-11-02T15:00:00.000Z",
+    "updatedAt": "2023-11-02T15:00:00.000Z",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "title": "Incredible Discoveries",
+    "content": "Discoveries that will change the world. Learn more about them here.",
+    "imgUrl": "https://images.pexels.com/photos/4356144/pexels-photo-4356144.jpeg",
+    "createdAt": "2023-11-02T16:00:00.000Z",
+    "updatedAt": "2023-11-02T16:00:00.000Z",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "title": "Amazing Achievements",
+    "content": "Remarkable achievements were unlocked today. Explore them with us!",
+    "imgUrl": "https://images.pexels.com/photos/1205651/pexels-photo-1205651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "createdAt": "2023-11-02T17:00:00.000Z",
+    "updatedAt": "2023-11-02T17:00:00.000Z",
+    "categoryId": 4,
+    "authorId": 1
+  },
+  {
+    "title": "A Journey Begins",
+    "content": "The journey of a lifetime starts now. Join us on this adventure!",
+    "imgUrl": "https://images.pexels.com/photos/1230302/pexels-photo-1230302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1jpg",
+    "createdAt": "2023-11-02T18:00:00.000Z",
+    "updatedAt": "2023-11-02T18:00:00.000Z",
+    "categoryId": 5,
+    "authorId": 1
+  },
+  {
+    "title": "Stay Informed",
+    "content": "Get all the information you need to stay updated. Don't miss out!",
+    "imgUrl": "https://images.pexels.com/photos/4009409/pexels-photo-4009409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "createdAt": "2023-11-02T19:00:00.000Z",
+    "updatedAt": "2023-11-02T19:00:00.000Z",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "title": "Surprising Developments",
+    "content": "Developments that will leave you surprised. Stay connected for more.",
+    "imgUrl": "https://images.pexels.com/photos/935789/pexels-photo-935789.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "createdAt": "2023-11-02T20:00:00.000Z",
+    "updatedAt": "2023-11-02T20:00:00.000Z",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "title": "A World of Possibilities",
+    "content": "The world is full of possibilities. Explore them with us!",
+    "imgUrl": "https://images.pexels.com/photos/161293/prambanan-temple-java-hinduism-161293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "createdAt": "2023-11-02T21:00:00.000Z",
+    "updatedAt": "2023-11-02T21:00:00.000Z",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "title": "Discover the Unknown",
+    "content": "Discover the unknown with us. It's going to be an incredible journey.",
+    "imgUrl": "https://images.pexels.com/photos/5726793/pexels-photo-5726793.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "createdAt": "2023-11-02T22:00:00.000Z",
+    "updatedAt": "2023-11-02T22:00:00.000Z",
+    "categoryId": 4,
+    "authorId": 1
+  },
+  {
+    "title": "Exciting Times Ahead",
+    "content": "Exciting times are on the horizon. Stay with us for the latest updates.",
+    "imgUrl": "https://images.pexels.com/photos/3752600/pexels-photo-3752600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "createdAt": "2023-11-02T23:00:00.000Z",
+    "updatedAt": "2023-11-02T23:00:00.000Z",
+    "categoryId": 5,
+    "authorId": 1
+  },
+  {
+    "title": "Unveiling the Mystery",
+    "content": "A mystery is about to be unveiled. Get ready for the revelation!",
+    "imgUrl": "https://images.pexels.com/photos/4256852/pexels-photo-4256852.jpeg",
+    "createdAt": "2023-11-03T00:00:00.000Z",
+    "updatedAt": "2023-11-03T00:00:00.000Z",
+    "categoryId": 1,
+    "authorId": 1
+  },
+  {
+    "title": "The Adventure Begins",
+    "content": "An exciting adventure begins now. Join us for the journey of a lifetime!",
+    "imgUrl": "https://images.pexels.com/photos/2695266/pexels-photo-2695266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "createdAt": "2023-11-03T01:00:00.000Z",
+    "updatedAt": "2023-11-03T01:00:00.000Z",
+    "categoryId": 2,
+    "authorId": 1
+  },
+  {
+    "title": "Breaking Barriers",
+    "content": "We are breaking barriers and pushing boundaries. Stay connected!",
+    "imgUrl": "https://images.pexels.com/photos/1107495/pexels-photo-1107495.jpeg",
+    "createdAt": "2023-11-03T02:00:00.000Z",
+    "updatedAt": "2023-11-03T02:00:00.000Z",
+    "categoryId": 3,
+    "authorId": 1
+  },
+  {
+    "title": "Explore the Possibilities",
+    "content": "There are endless possibilities to explore. Join us on this journey!",
+    "imgUrl": "https://images.pexels.com/photos/1659437/pexels-photo-1659437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "createdAt": "2023-11-03T03:00:00.000Z",
+    "updatedAt": "2023-11-03T03:00:00.000Z",
+    "categoryId": 4,
+    "authorId": 1
+  },
+  {
+    "title": "Unlocking the Secrets",
+    "content": "We are on the path to unlocking some incredible secrets. Don't miss out!",
+    "imgUrl": "https://images.pexels.com/photos/5859666/pexels-photo-5859666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "createdAt": "2023-11-03T04:00:00.000Z",
+    "updatedAt": "2023-11-03T04:00:00.000Z",
+    "categoryId": 5,
+    "authorId": 1
+  }
+]

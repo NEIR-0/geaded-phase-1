@@ -1,0 +1,17 @@
+const app = require("../app")
+// const port = 3000 // pidahin ke www.js
+
+// pake ini buat deploy
+const port = process.env.PORT || 3000
+// ! cek config bagian "production":
+/*
+  "production": {
+    "use_env_variable": "DATABASE URL"
+  }
+*/
+
+
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})

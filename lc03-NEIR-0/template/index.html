@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Hacktiv Legends</title>
+  </head>
+
+  <body>
+    <!-- Login -->
+    <div class="container h-screen mx-auto">
+      <div class="grid grid-cols-10 h-screen place-items-center">
+        <div class="col-start-2 col-span-8 sm:col-start-2 sm:col-span-8 place-items-center">
+          <h2 class="text-4xl tracking-widest text-white text-opacity-70 text-center uppercase mb-14">
+            <p><span class="text-white text-opacity-100 text-6xl font-bold">Hacktiv Legends</span></p>
+          </h2>
+          <div class="grid grid-cols-10">
+            <div class="col-start-2 col-span-8">
+              <h2 class="text-white text-opacity-80 text-2xl text-center mb-7">Login Now</h2>
+              <div class="card px-10 py-5 sm:px-20 sm:py-10 rounded-md">
+                <form class="mt-6 mb-6 space-y-6">
+                  <div class="mb-5">
+                    <label for="email-address" class="sr-only">Email address</label>
+                    <input
+                      id="email-address"
+                      name="email"
+                      type="email"
+                      autocomplete="off"
+                      required
+                      class="block w-full px-3 py-2 border rounded-sm text-purple-900 focus:outline-none focus:ring focus:ring-purple-500 focus:border-purple-500 focus:z-10 sm:text-lg tracking-wider"
+                      placeholder="Email address"
+                    />
+                  </div>
+                  <div>
+                    <label for="password" class="sr-only">Password</label>
+                    <input
+                      id="password"
+                      name="password"
+                      type="password"
+                      autocomplete="off"
+                      required
+                      class="block w-full px-3 py-2 border rounded-sm text-purple-900 focus:outline-none focus:ring focus:ring-purple-500 focus:border-purple-500 focus:z-10 sm:text-lg tracking-wider"
+                      placeholder="Password"
+                    />
+                  </div>
+                  <div>
+                    <button
+                      type="submit"
+                      class="w-full flex justify-center py-2 px-4 border border-transparent text-sm rounded-sm text-purple-900 bg-white bg-opacity-90 hover:bg-white hover:bg-opacity-80 focus:outline-none focus:ring focus:border-purple-500 focus:ring-purple-500 text-lg tracking-wider flex font-bold"
+                    >
+                      Log In
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="py-3 bg-purple-900 navbar-color">
+      <div class="flex-1 flex items-center justify-center">
+        <div class="flex-shrink-0 flex items-center">
+          <span class="text-white text-2xl uppercase font-bold">Hacktiv Legends</span>
+        </div>
+        <div class="hidden sm:block sm:ml-6">
+          <div class="flex space-x-4 align-middle font-bold">
+            <a href="#" class="text-white opacity-80 text-md uppercase hover:opacity-100 px-3 py-2">Home</a>
+            <a href="#" class="text-white opacity-80 text-md uppercase hover:opacity-100 px-3 py-2">Favourites</a>
+            <a href="#" class="text-white opacity-80 text-md uppercase hover:opacity-100 px-3 py-2">Logout</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+      <h2 class="text-4xl tracking-widest text-white text-center uppercase font-bold">
+        <span class="block">Choose your Hero</span>
+      </h2>
+      <div class="mt-10 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <!-- HeroesCard -->
+        <div class="group">
+          <div class="relative">
+            <div class="w-full">
+              <img src="https://img.mobilelegends.com/group1/M00/00/B2/Cq2IxmAKtDOAe9QQAAIoQFvuZwA933.jpg" class="w-full h-full object-center object-cover opacity-70 group-hover:opacity-100 rounded-md" />
+              <div class="absolute bottom-0 px-2 py-4 flex flex-col bg-gradient-to-t from-black w-full rounded-md">
+                <p class="text-xl text-white uppercase inline-block align-start text-left pl-2 font-bold">Paquito</p>
+                <p class="text-md text-white inline-block align-start text-left pl-2">Fighter</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center items-center h-16">
+            <button class="px-3 py-2 text-gray-900 bg-gray-100 rounded-sm focus:outline-none focus:ring focus:ring-gray-500 uppercase tracking-widest font-bold">Choose Hero</button>
+          </div>
+        </div>
+
+        <!-- HeroesCard -->
+        <div class="group">
+          <div class="relative">
+            <div class="w-full">
+              <img src="https://img.mobilelegends.com/group1/M00/00/AB/Cq2Ixl-_iUCAQOs3AALNya38dwM674.jpg" class="w-full h-full object-center object-cover opacity-70 group-hover:opacity-100 rounded-md" />
+              <div class="absolute bottom-0 px-2 py-4 flex flex-col bg-gradient-to-t from-black w-full rounded-md">
+                <p class="text-xl text-white uppercase inline-block align-start text-left pl-2 font-bold">Barats</p>
+                <p class="text-md text-white inline-block align-start text-left pl-2">Tank</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center items-center h-16">
+            <button class="px-3 py-2 text-gray-900 bg-gray-100 rounded-sm focus:outline-none focus:ring focus:ring-gray-500 uppercase tracking-widest font-bold">Choose Hero</button>
+          </div>
+        </div>
+
+        <!-- HeroesCard -->
+        <div class="group">
+          <div class="relative">
+            <div class="w-full">
+              <img src="https://img.mobilelegends.com/group1/M00/00/A7/Cq2Ixl7shFWAJ73nAAF5owmcBqA347.jpg" class="w-full h-full object-center object-cover opacity-70 group-hover:opacity-100 rounded-md" />
+              <div class="absolute bottom-0 px-2 py-4 flex flex-col bg-gradient-to-t from-black w-full rounded-md">
+                <p class="text-xl text-white uppercase inline-block align-start text-left pl-2 font-bold">Luo Yi</p>
+                <p class="text-md text-white inline-block align-start text-left pl-2">Mage</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center items-center h-16">
+            <button class="px-3 py-2 text-gray-900 bg-gray-100 rounded-sm focus:outline-none focus:ring focus:ring-gray-500 uppercase tracking-widest font-bold">Choose Hero</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Favourites -->
+    <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+      <h2 class="text-4xl tracking-widest text-white text-center uppercase font-bold">
+        <span class="block">Favourites</span>
+      </h2>
+      <div class="mt-10 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <!-- FavouriteCard -->
+        <div class="group">
+          <div class="relative">
+            <div class="w-full">
+              <img src="https://img.mobilelegends.com/group1/M00/00/B2/Cq2IxmAKtDOAe9QQAAIoQFvuZwA933.jpg" class="w-full h-full object-center object-cover opacity-70 group-hover:opacity-100 rounded-md" />
+              <div class="absolute bottom-0 px-2 py-4 flex flex-col bg-gradient-to-t from-black w-full rounded-md">
+                <p class="text-xl text-white uppercase inline-block align-start text-left pl-2 font-bold">Paquito</p>
+                <p class="text-md text-white inline-block align-start text-left pl-2 mb-2">Fighter</p>
+                <p class="text-md text-purple-400 inline-block align-start text-left pl-2">Power: 3000</p>
+                <p class="text-md text-purple-400 inline-block align-start text-left pl-2">Role: Jungler</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center items-center h-16">
+            <button class="px-3 py-2 text-gray-900 bg-gray-100 rounded-sm focus:outline-none focus:ring focus:ring-gray-500 uppercase tracking-widest font-bold">Update</button>
+          </div>
+        </div>
+
+        <!-- FavouriteCard -->
+        <div class="group">
+          <div class="relative">
+            <div class="w-full">
+              <img src="https://img.mobilelegends.com/group1/M00/00/A8/Cq2Ixl8MDzOAYTdJAAGJKaZhxlA426.jpg" class="w-full h-full object-center object-cover opacity-70 group-hover:opacity-100 rounded-md" />
+              <div class="absolute bottom-0 px-2 py-4 flex flex-col bg-gradient-to-t from-black w-full rounded-md">
+                <p class="text-xl text-white uppercase inline-block align-start text-left pl-2 font-bold">Yu Zhong</p>
+                <p class="text-md text-white inline-block align-start text-left pl-2 mb-2">Fighter</p>
+                <p class="text-md text-purple-400 inline-block align-start text-left pl-2">Power: 2200</p>
+                <p class="text-md text-purple-400 inline-block align-start text-left pl-2">Role: Exp Laner</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center items-center h-16">
+            <button class="px-3 py-2 text-gray-900 bg-gray-100 rounded-sm focus:outline-none focus:ring focus:ring-gray-500 uppercase tracking-widest font-bold">Update</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Update Page -->
+    <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+      <h2 class="text-4xl tracking-widest text-white text-center uppercase font-bold">
+        <span class="block">Update Hero</span>
+      </h2>
+      <div class="mt-10 grid grid-cols-10">
+        <div class="col-start-2 col-span-3">
+          <img src="https://img.mobilelegends.com/group1/M00/00/A8/Cq2Ixl8MDzOAYTdJAAGJKaZhxlA426.jpg" class="w-full h-full object-center object-cover opacity-70 group-hover:opacity-100 rounded-md" />
+        </div>
+        <div class="col-start-6 col-span-4">
+          <div class="card px-10 py-5 sm:px-20 sm:py-10 rounded-md">
+            <form class="mt-6 mb-6 space-y-6">
+              <div class="mb-5">
+                <label for="power-update" class="sr-only">Power</label>
+                <input
+                  id="power-update"
+                  type="text"
+                  autocomplete="off"
+                  required
+                  class="block w-full px-3 py-2 border rounded-sm text-purple-900 focus:outline-none focus:ring focus:ring-purple-500 focus:border-purple-500 focus:z-10 sm:text-lg tracking-wider"
+                  placeholder="Power (ex: 2200)"
+                />
+              </div>
+              <div>
+                <label for="role-update" class="sr-only">Role</label>
+                <select id="role-update" class="block w-full px-3 py-2 border rounded-sm text-purple-900 focus:outline-none focus:ring focus:ring-purple-500 focus:border-purple-500 focus:z-10 sm:text-lg tracking-wider">
+                  <option value="-" disabled>-- Select Role --</option>
+                  <option value="Jungler">Jungler</option>
+                  <option value="Roamer">Roamer</option>
+                  <option value="Mid Laner">Mid Laner</option>
+                  <option value="Gold Laner">Gold Laner</option>
+                  <option value="Exp Laner">Exp Laner</option>
+                </select>
+              </div>
+              <div>
+                <button
+                  type="submit"
+                  class="w-full flex justify-center py-2 px-4 border border-transparent text-sm rounded-sm text-purple-900 bg-white bg-opacity-90 hover:bg-white hover:bg-opacity-80 focus:outline-none focus:ring focus:border-purple-500 focus:ring-purple-500 text-lg tracking-wider flex font-bold"
+                >
+                  Update
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
